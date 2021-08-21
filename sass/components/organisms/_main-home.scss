@@ -1,0 +1,57 @@
+.main-home{
+
+    &-subtitule{
+        margin-top: 8.3rem;
+        margin-bottom: 9.3rem;
+        color: $color-secondary;
+        font-family: $font-family-montserrat;
+        font-size: $font-large;
+        text-align: center;
+    }
+    
+    &-room{
+        display: flex;
+        align-items: center;
+        margin-bottom: 7rem;
+
+       &-info{
+        border-left: 2px solid $color-secondary;
+        padding-left: 4.9rem;
+        padding-right: 11.3rem;
+       
+            h2{
+            margin-bottom: 1.9rem;
+            color: $color-secondary;
+            font-family: $font-family-garamond;
+            font-size: $font-x-large;
+            }
+
+            p{
+            margin-bottom: 3rem;
+            color: $color-secondary;
+            font-family: $font-family-montserrat;
+            font-size: $font-medium;
+            line-height: 4rem;
+            }
+
+            a{
+                display: inline-block;
+                padding: 1.8rem 6.4rem 2.1rem 6.4rem;
+                color: #fff ;
+                background-color: $color-primary ;
+                border-radius: 8px;
+                text-decoration: none;
+                font-family: $font-family-montserrat;
+                font-size: $font-small;
+                font-weight: bold;
+
+            }
+        }
+
+        &-image{
+            img{
+                filter: brightness(80%);
+            }
+        }
+    }
+}
