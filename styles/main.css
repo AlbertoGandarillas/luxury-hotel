@@ -151,7 +151,7 @@ table {
 .main-home-room-info {
   border-left: 2px solid #14274A;
   padding-left: 4.9rem;
-  padding-right: 11rem;
+  padding-right: 11.3rem;
 }
 
 .main-home-room-info h2 {
@@ -188,6 +188,7 @@ table {
 .wrapper {
   width: 90%;
   margin: auto;
+  background: #fff;
 }
 
 @media (max-width: 896px) {
@@ -210,6 +211,5 @@ html {
 body {
   font-size: 2rem;
   font-family: "Montserrat", sans-serif;
-  background-color: #E5E5E5;
 }
 /*# sourceMappingURL=main.css.map */
