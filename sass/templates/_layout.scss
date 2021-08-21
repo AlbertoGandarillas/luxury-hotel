@@ -5,3 +5,65 @@
     width: 95%;
   }
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  &__nav {
+    margin-top: 60px;
+  }
+}
+
+.hero {
+  font-family: $font-family-garamond;
+  background-image: url('../../images/banner.png');
+  background-size: cover;
+  background-position: floor($number: 0);
+  color: #fff;
+  padding: 0 10%;
+  &__welcome {
+    margin-top: 190px;
+    width: 70%;
+  }
+  &__span {
+    font-size: 5.0rem;
+  }
+  &__h1 {
+    font-size: 15.4rem;
+  }
+  &__h2 {
+    font-size: 6.0rem;
+  }
+  &__p {
+    font-size: $font-small;
+    width: 35%;
+    display: block;
+  }
+  button {
+    background-color: $color-primary;
+    color: #fff;
+    font-family: $font-family-montserrat;
+    font-size: $font-medium;
+    text-transform: uppercase;
+    padding: 22px 36px;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  &__scroll {
+    text-align: center;
+    p {
+      font-family: $font-family-montserrat;
+      font-size: $font-medium;
+    }
+    i {
+      font-size: $font-x-large;
+    } 
+  }
+  &__book {
+    display: flex;
+    align-content: center;
+padding: 80px 0;
+  }
+}
