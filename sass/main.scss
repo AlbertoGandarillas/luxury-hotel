@@ -22,34 +22,3 @@ body {
   font-family: $font-family-roboto;
   background-color: $background-color;
 }
-body:after{
-  display:none;
-  content: url(../images/logo1.jfif) url(../images/logo2.jfif);
- }
-
-// input[type='radio'] {
-//   -webkit-appearance: none;
-//   width: 20px;
-//   height: 20px;
-//   border-radius: 50%;
-//   outline: none;
-//   border: 1px solid red;
-// }
-
-// input[type='radio']:before {
-//   content: '';
-//   display: block;
-//   width: 80%;
-//   height: 80%;
-//   margin: 10% auto;
-//   border-radius: 50%;
-// }
-
-// input[type="radio"]:checked:before {
-//   background: green;
-  
-// }
-
-// input[type="radio"]:checked {
-// border-color:green;
-// }
