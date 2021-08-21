@@ -1,0 +1,68 @@
+.testimonial{
+    &__h2{
+        color: $color-secondary;
+        font-family: $font-family-garamond;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 78px;
+        text-align: center;
+    }
+    &__h3{
+        font-family: $font-family-montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 30px;
+        color: $color-secondary;
+        text-align: center;
+    }
+
+    &__p{
+        font-family: $font-family-montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 30px;
+        color: $color-secondary;
+        text-align: center;
+    }
+}
+
+.buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        padding: 15px 30px;
+
+    &-previous{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background-color: $color-primary;
+        border-radius: 5px;
+        text-align: center;
+        h3{
+            font-size: 4.0rem;
+            color: #fff;
+        }
+    }
+
+    &-next{
+        display: flex;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        background-color: $color-primary;
+        border-radius: 5px;
+        text-align: center;
+        align-items: center;
+        h3{
+            font-size: 4.0rem;
+            color: #fff;
+        }
+    }
+}

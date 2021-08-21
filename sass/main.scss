@@ -1,29 +1,9 @@
 @import "./core/reset";
 @import "./core/typography";
 @import "./abstracts/variables";
+@import "./abstracts/global";
 @import "./components/atoms/atoms";
 @import "./components/molecules/molecules";
 @import "./components/organisms/organisms";
 @import "./templates/layout";
 
-/* GLOBALES */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: $font-small;
-  font-family: $font-family-montserrat;
-  background-color: $background-color;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
