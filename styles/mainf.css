@@ -1,0 +1,87 @@
+.mainf {
+  padding: 40px 170px 110px 170px;
+  width: 1480px;
+  text-align: center;
+}
+
+.mainf-parrafo {
+  max-width: 100%;
+  margin-bottom: 80px;
+  color: #14274A;
+}
+
+.mainf h2 {
+  margin-bottom: 20px;
+}
+
+.mainf h2,
+.mainf h3,
+.mainf h4 {
+  color: #14274A;
+}
+
+.row {
+  width: 100%;
+  position: relative;
+  margin-bottom: 186px;
+}
+
+.row:last-child {
+  margin-bottom: 110px;
+}
+
+.row-figure {
+  width: 100%;
+}
+
+.row-figure img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.-item {
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  bottom: 0;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.-item h3 {
+  padding-top: 30px;
+}
+
+.final {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.left_rigth i {
+  width: 50px;
+  height: 50px;
+  font-size: 35px;
+  background-color: #e0b973;
+  color: #ffffff;
+  padding-top: 7px;
+  margin: 20px 10px 0 10px;
+  border-radius: 8px;
+}
+/*# sourceMappingURL=mainf.css.map */

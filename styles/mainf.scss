@@ -1,0 +1,40 @@
+@import "../sass/components/organisms/organisms";
+
+.mainf {
+  padding: 40px 170px 110px 170px;
+  width: 1480px;
+  text-align: center;
+
+  &-parrafo {
+    max-width: 100%;
+    margin-bottom: 80px;
+    color: $color-secondary;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  h2,
+  h3,
+  h4 {
+    color: $color-secondary;
+  }
+}
+
+
+.-item {
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  bottom: 0;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  h3 {
+    padding-top: 30px;
+  }
+}
+
+
+

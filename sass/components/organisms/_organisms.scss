@@ -3,4 +3,66 @@
 // @import "full-job";
 // @import "footer";
 
+<<<<<<< HEAD
 @import "main-home";
+=======
+@import "../molecules/molecules";
+
+//alan etchebarne
+
+//alan etchebarne facilitys
+
+.parrafo{
+    color:$color-secondary;
+}
+
+h2,h3,h4{
+    color:$color-secondary;
+}
+.h2-title{
+    font-family: 'EB Garamond';
+    font-size: 60px;
+    font-weight: 700;
+}
+//texto dentro de la imagen
+h3{
+    font-size: 48px;
+    font-weight: 700;
+}
+//texto parte final
+h4{
+    font-size: 30px;
+    font-weight: 400;
+}
+//texto parte final
+h5{
+    font-size: 25px;
+    font-weight: 400;
+}
+//parte que contien imagen y div de texto se repide en varias paginas
+.row {
+    width: 100%;
+    position: relative;
+    margin-bottom: 186px;
+    &:last-child {
+      margin-bottom: 110px;
+    }
+    &-figure {
+      width: 100%;
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+//parte final de a pagina... lema y navegacion que se repite
+.final{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+>>>>>>> 94d7d5c3ca9b28f4a3dd931d68d7b419cc65ac95
