@@ -11,6 +11,16 @@
   justify-content: space-between;
   &__nav {
     margin-top: 60px;
+    @media (max-width: $responsive-mobile-max) {
+      margin-top: 40px;
+      font-size: 1.8rem;
+    }
+    @media (max-width: $responsive-mobile-min) {
+      font-size: 1.4rem;
+    }
+  }
+  @media (max-width: $responsive-mobile-min) {
+    flex-direction: column;
   }
 }
 
@@ -24,20 +34,39 @@
   &__welcome {
     margin-top: 190px;
     width: 70%;
+    @media (max-width: $responsive-mobile-max) {
+      margin-top: 50px;
+    }
+    @media (max-width: $responsive-mobile-min) {
+      margin-top: 25px;
+    }
   }
   &__span {
     font-size: 5rem;
+    @media (max-width: $responsive-mobile-max) {
+      font-size: 3rem;
+    }
   }
   &__h1 {
     font-size: 15.4rem;
+    @media (max-width: $responsive-mobile-max) {
+      font-size: 6rem;
+    }
   }
   &__h2 {
     font-size: 6rem;
+    @media (max-width: $responsive-mobile-max) {
+      font-size: 4.5rem;
+    }
   }
   &__p {
     font-size: $font-small;
     width: 35%;
     display: block;
+    @media (max-width: $responsive-mobile-max) {
+      font-size: 2rem;
+      width: 65%;
+    }
   }
   button {
     background-color: $color-primary;
@@ -53,6 +82,7 @@
   }
   &__scroll {
     text-align: center;
+    padding-bottom: 20px;
     p {
       font-family: $font-family-montserrat;
       font-size: $font-medium;
@@ -65,5 +95,8 @@
     display: flex;
     align-content: center;
     padding: 80px 0;
+  }
+  @media (max-width: $responsive-mobile-max) {
+    background-position: center;
   }
 }

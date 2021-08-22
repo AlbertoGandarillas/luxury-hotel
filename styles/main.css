@@ -147,7 +147,7 @@ html {
 body {
   font-size: 2rem;
   font-family: "Montserrat", sans-serif;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 a {
@@ -156,8 +156,8 @@ a {
 }
 
 .logo {
-  background-color: #E0B973;
-  color: #14274A;
+  background-color: #e0b973;
+  color: #14274a;
   font-family: "EB Garamond", sans-serif;
   font-size: 4.0rem;
   width: 256px;
@@ -186,12 +186,45 @@ a {
   column-gap: 80px;
 }
 
+@media (max-width: 1024px) {
+  .nav__list {
+    column-gap: 30px;
+  }
+}
+
+@media (max-width: 569px) {
+  .nav__list {
+    column-gap: 10px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 376px) {
+  .nav__list {
+    flex-direction: unset;
+  }
+}
+
 .nav__item {
   line-height: 30px;
 }
 
+@media (max-width: 1024px) {
+  .nav {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 376px) {
+  .nav {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+}
+
 .testimonial__h2 {
-  color: #14274A;
+  color: #14274a;
   font-family: "EB Garamond", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -206,7 +239,7 @@ a {
   font-weight: normal;
   font-size: 25px;
   line-height: 30px;
-  color: #14274A;
+  color: #14274a;
   text-align: center;
 }
 
@@ -216,7 +249,7 @@ a {
   font-weight: normal;
   font-size: 25px;
   line-height: 30px;
-  color: #14274A;
+  color: #14274a;
   text-align: center;
 }
 
@@ -234,7 +267,7 @@ a {
   align-items: center;
   width: 50px;
   height: 50px;
-  background-color: #E0B973;
+  background-color: #e0b973;
   border-radius: 5px;
   text-align: center;
 }
@@ -249,7 +282,7 @@ a {
   justify-content: center;
   width: 50px;
   height: 50px;
-  background-color: #E0B973;
+  background-color: #e0b973;
   border-radius: 5px;
   text-align: center;
   align-items: center;
@@ -263,7 +296,7 @@ a {
 .main-home-subtitule {
   margin-top: 8.3rem;
   margin-bottom: 9.3rem;
-  color: #14274A;
+  color: #14274a;
   font-family: "Montserrat", sans-serif;
   font-size: 3.6rem;
   text-align: center;
@@ -276,21 +309,21 @@ a {
 }
 
 .main-home-room-info {
-  border-left: 2px solid #14274A;
+  border-left: 2px solid #14274a;
   padding-left: 4.9rem;
   padding-right: 11.3rem;
 }
 
 .main-home-room-info h2 {
   margin-bottom: 1.9rem;
-  color: #14274A;
+  color: #14274a;
   font-family: "EB Garamond", sans-serif;
   font-size: 6rem;
 }
 
 .main-home-room-info p {
   margin-bottom: 3rem;
-  color: #14274A;
+  color: #14274a;
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   line-height: 4rem;
@@ -300,7 +333,7 @@ a {
   display: inline-block;
   padding: 1.8rem 6.4rem 2.1rem 6.4rem;
   color: #fff;
-  background-color: #E0B973;
+  background-color: #e0b973;
   border-radius: 8px;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
@@ -317,7 +350,7 @@ a {
   margin: auto;
 }
 
-@media (max-width: 896px) {
+@media (max-width: 569px) {
   .wrapper {
     width: 95%;
   }
@@ -330,6 +363,25 @@ a {
 
 .header__nav {
   margin-top: 60px;
+}
+
+@media (max-width: 569px) {
+  .header__nav {
+    margin-top: 40px;
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .header__nav {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .header {
+    flex-direction: column;
+  }
 }
 
 .hero {
@@ -346,16 +398,46 @@ a {
   width: 70%;
 }
 
+@media (max-width: 569px) {
+  .hero__welcome {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 376px) {
+  .hero__welcome {
+    margin-top: 25px;
+  }
+}
+
 .hero__span {
   font-size: 5rem;
+}
+
+@media (max-width: 569px) {
+  .hero__span {
+    font-size: 3rem;
+  }
 }
 
 .hero__h1 {
   font-size: 15.4rem;
 }
 
+@media (max-width: 569px) {
+  .hero__h1 {
+    font-size: 6rem;
+  }
+}
+
 .hero__h2 {
   font-size: 6rem;
+}
+
+@media (max-width: 569px) {
+  .hero__h2 {
+    font-size: 4.5rem;
+  }
 }
 
 .hero__p {
@@ -364,8 +446,15 @@ a {
   display: block;
 }
 
+@media (max-width: 569px) {
+  .hero__p {
+    font-size: 2rem;
+    width: 65%;
+  }
+}
+
 .hero button {
-  background-color: #E0B973;
+  background-color: #e0b973;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
@@ -379,6 +468,7 @@ a {
 
 .hero__scroll {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .hero__scroll p {
@@ -394,4 +484,10 @@ a {
   display: flex;
   align-content: center;
   padding: 80px 0;
+}
+
+@media (max-width: 569px) {
+  .hero {
+    background-position: center;
+  }
 }
