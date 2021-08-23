@@ -254,40 +254,33 @@ a {
 }
 
 .testimonials {
-  padding-bottom: 100px;
+  padding: 100px 0;
+  text-align: center;
 }
 
-.testimonial__h2 {
+.testimonial h2 {
   color: #14274a;
   font-family: "EB Garamond", sans-serif;
-  font-style: normal;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 6rem;
   line-height: 78px;
-  text-align: center;
 }
 
-.testimonial__h3 {
+.testimonial h3 {
   font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 25px;
+  font-size: 3.0rem;
   line-height: 30px;
   color: #14274a;
-  text-align: center;
 }
 
-.testimonial__p {
+.testimonial p {
   font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 25px;
+  font-size: 2.5rem;
   line-height: 30px;
   color: #14274a;
-  text-align: center;
 }
 
-.buttons {
+.testimonial-buttons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -295,36 +288,15 @@ a {
   padding: 15px 30px;
 }
 
-.buttons-previous {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.testimonial-buttons button {
   width: 50px;
   height: 50px;
   background-color: #e0b973;
   border-radius: 5px;
   text-align: center;
-}
-
-.buttons-previous h3 {
-  font-size: 4.0rem;
+  font-size: 2rem;
   color: #fff;
-}
-
-.buttons-next {
-  display: flex;
-  justify-content: center;
-  width: 50px;
-  height: 50px;
-  background-color: #e0b973;
-  border-radius: 5px;
-  text-align: center;
-  align-items: center;
-}
-
-.buttons-next h3 {
-  font-size: 4.0rem;
-  color: #fff;
+  border: none;
 }
 
 footer ::placeholder {
@@ -603,7 +575,7 @@ footer .container .footer-subscription .form button {
 
 .hero__scroll {
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 38px;
 }
 
 .hero__scroll p {
