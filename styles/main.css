@@ -147,7 +147,7 @@ html {
 body {
   font-size: 2rem;
   font-family: "Montserrat", sans-serif;
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
 
 a {
@@ -813,4 +813,3 @@ footer .container .footer-subscription .form button {
   border: none;
   border-radius: 10px;
 }
-/*# sourceMappingURL=main.css.map */
