@@ -223,6 +223,40 @@ a {
   }
 }
 
+.logo {
+  background-color: #e0b973;
+  color: #14274a;
+  font-family: "EB Garamond", sans-serif;
+  font-size: 4.0rem;
+  width: 256px;
+  height: 149px;
+  text-align: center;
+  padding: 44px 18px 53px 41px;
+  border-radius: 0 0 50px 50px;
+  text-transform: uppercase;
+}
+
+.logo::after {
+  font-size: 2rem;
+  content: 'HOTELS';
+  text-align: center;
+}
+
+.left_rigth i {
+  width: 50px;
+  height: 50px;
+  font-size: 35px;
+  background-color: #e0b973;
+  color: #ffffff;
+  padding-top: 7px;
+  margin: 25 0 10px;
+  border-radius: 8px;
+}
+
+.testimonials {
+  padding-bottom: 100px;
+}
+
 .testimonial__h2 {
   color: #14274a;
   font-family: "EB Garamond", sans-serif;
@@ -291,6 +325,107 @@ a {
 .buttons-next h3 {
   font-size: 4.0rem;
   color: #fff;
+}
+
+footer ::placeholder {
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer .container {
+  /*position: absolute;*/
+  left: 0%;
+  right: 0%;
+  top: 89.92%;
+  bottom: 0.19%;
+  background-repeat: round;
+  height: 320.99px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .container .footer-descrip {
+  font-family: "EB Garamond", sans-serif;
+  font-size: 25px;
+  line-height: 33px;
+  letter-spacing: 0.15em;
+  left: 9.64%;
+  margin-left: 185px;
+  margin-top: 60px;
+}
+
+footer .container .footer-descrip .footer-descrip-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 135px;
+  line-height: 20px;
+}
+
+footer .container .footer-descrip .footer-descrip-name .hotels {
+  font-size: 9px;
+}
+
+footer .container .footer-descrip p {
+  margin-top: 20px;
+  display: block;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  line-height: 17.07px;
+}
+
+footer .container .footer-about-us {
+  margin-top: 60px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-between;
+}
+
+footer .container .footer-social {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  grid-template-rows: 2.5fr 2.5fr 1.5fr;
+  cursor: pointer;
+}
+
+footer .container .footer-subscription {
+  margin-top: 60px;
+  margin-right: 185px;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+}
+
+footer .container .footer-subscription .form {
+  display: grid;
+  grid-template-columns: 278px 80px;
+  grid-template-rows: 52px;
+}
+
+footer .container .footer-subscription .form input {
+  border: 2px solid #e0b973;
+  background: #14274a;
+  color: inherit;
+}
+
+footer .container .footer-subscription .form button {
+  background: #e0b973;
+  border: 0px solid #e0b973;
+  color: #14274a;
+  font-size: 16px;
 }
 
 .main-home-subtitule {
@@ -490,4 +625,100 @@ a {
   .hero {
     background-position: center;
   }
+}
+
+/* FACILITIES */
+.parrafo {
+  color: #14274a;
+}
+
+.mainf h2,
+.mainf h3,
+.mainf h4 {
+  color: #14274a;
+}
+
+.h2-title {
+  font-family: 'EB Garamond';
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.mainf h3 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.mainf h4 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.mainf h5 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.row {
+  width: 100%;
+  position: relative;
+  margin-bottom: 186px;
+}
+
+.row:last-child {
+  margin-bottom: 110px;
+}
+
+.row-figure {
+  width: 100%;
+}
+
+.row-figure img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.final {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mainf {
+  padding: 40px 170px 110px 170px;
+  width: 1480px;
+  text-align: center;
+}
+
+.mainf-parrafo {
+  max-width: 100%;
+  margin-bottom: 80px;
+  color: #14274a;
+}
+
+.mainf .mainf h2 {
+  margin-bottom: 20px;
+}
+
+.mainf .mainf h2,
+.mainf .mainf h3,
+.mainf .mainf h4 {
+  color: #14274a;
+}
+
+.-item {
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  bottom: 0;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.-item h3 {
+  padding-top: 30px;
 }
