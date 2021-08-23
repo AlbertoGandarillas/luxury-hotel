@@ -721,3 +721,96 @@ footer .container .footer-subscription .form button {
 .-item h3 {
   padding-top: 30px;
 }
+
+/*SECTION ROOMS*/
+.main-rooms {
+  background-color: white;
+  padding-bottom: 40px;
+}
+
+.main-rooms .section-rooms {
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 2px;
+  border-radius: 12px;
+  margin-bottom: 80px;
+}
+
+.main-rooms h1,
+.main-rooms p {
+  text-align: center;
+  color: #14274a;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-rooms h1 {
+  font-family: "EB Garamond", sans-serif;
+  padding-top: 80px;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.main-rooms p {
+  font-size: 25px;
+  padding: 0 16%;
+  margin-bottom: 80px;
+}
+
+.main-rooms figure {
+  width: auto;
+  border-radius: 2px;
+}
+
+.main-rooms figure img {
+  width: 100%;
+  display: block;
+}
+
+.main-rooms h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  background-color: #14274a;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding-top: 41px;
+  padding-bottom: 41px;
+}
+
+.main-rooms .div-room {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 78px 162px;
+}
+
+.main-rooms .div-room .div-room-view-details {
+  display: flex;
+  align-items: center;
+}
+
+.main-rooms .div-room .div-room-view-details h4 {
+  width: 50px;
+  height: 50px;
+  background-color: #e0b973;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  height: auto;
+  border-radius: 25px;
+  margin-right: 40px;
+}
+
+.main-rooms .div-room .div-room-view-details h3 {
+  font-size: 25px;
+}
+
+.main-rooms .div-room .button-price {
+  background-color: #e0b973;
+  color: white;
+  font-size: 25px;
+  padding: 24px 44px;
+  border: none;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=main.css.map */

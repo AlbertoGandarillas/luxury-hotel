@@ -1,0 +1,96 @@
+/*SECTION ROOMS*/
+
+// .wrapper {
+//     width: 100%;
+//     max-width: 1920px;
+//   }
+.main-rooms {
+  background-color: white;
+  padding-bottom: 40px;
+
+  .section-rooms {
+    //   max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px;
+    border-radius: 12px;
+    margin-bottom: 80px;
+  }
+
+  h1,
+  p {
+    text-align: center;
+    color: $color-secondary;
+    font-family: $font-family-roboto;
+  }
+
+  h1 {
+    font-family: $font-family-garamond;
+    padding-top: 80px;
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 25px;
+    padding: 0 16%;
+    margin-bottom: 80px;
+  }
+
+  figure {
+    width: auto;
+    border-radius: 2px;
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  h2 {
+      font-family: $font-family-montserrat;
+    font-size: 60px;
+    background-color: $color-secondary;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 41px;
+    padding-bottom: 41px;
+  }
+
+  .div-room {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 78px 162px;
+
+    .div-room-view-details {
+      display: flex;
+      align-items: center;
+
+      h4 {
+        width: 50px;
+        height: 50px;
+        background-color: #e0b973;
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        height: auto;
+        border-radius: 25px;
+        margin-right: 40px;
+      }
+
+      h3 {
+        font-size: 25px;
+      }
+    }
+
+    .button-price {
+      background-color: #e0b973;
+      color: white;
+      font-size: 25px;
+      padding: 24px 44px;
+      border: none;
+      border-radius: 10px;
+    }
+  }
+}
