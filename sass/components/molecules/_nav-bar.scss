@@ -1,0 +1,31 @@
+.nav {
+  font-family: $font-family-montserrat;
+  color: #fff;
+  font-size: $font-medium;
+  &__list {
+    list-style: none;
+    display: flex;
+    column-gap: 80px;
+    @media (max-width: $responive-table) {
+      column-gap: 30px;
+    }
+    @media (max-width: $responsive-mobile-max) {
+      column-gap: 10px;
+      flex-direction: column;
+    }
+    @media (max-width: $responsive-mobile-min) {
+      flex-direction: unset;
+    }
+  }
+  &__item {
+    line-height: 30px;
+  }
+  @media (max-width: $responive-table) {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  @media (max-width: $responsive-mobile-min) {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+}

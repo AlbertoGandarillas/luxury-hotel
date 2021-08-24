@@ -1,0 +1,102 @@
+footer {
+  ::placeholder {
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .container {
+    /*position: absolute;*/
+    left: 0%;
+    right: 0%;
+    top: 89.92%;
+    bottom: 0.19%;
+    // background: #14274a;
+    background-repeat: round;
+    height: 320.99px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .footer-descrip {
+      font-family: $font-family-garamond;
+      font-size: 25px;
+      line-height: 33px;
+      letter-spacing: 0.15em;
+      left: 9.64%;
+      margin-left: 185px;
+      margin-top: 60px;
+
+      .footer-descrip-name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 135px;
+        line-height: 20px;
+        .hotels {
+          font-size: 9px;
+        }
+      }
+
+      p {
+        margin-top: 20px;
+        display: block;
+        font-size: 14px;
+        font-family: $font-family-montserrat;
+        font-weight: normal;
+        line-height: 17.07px;
+      }
+    }
+
+    .footer-about-us {
+      margin-top: 60px;
+      font-family: "Montserrat", sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 100px;
+      justify-content: space-between;
+    }
+
+    .footer-social {
+      margin-top: 60px;
+      display: grid;
+      grid-template-columns: 40px 1fr;
+      grid-template-rows: 2.5fr 2.5fr 1.5fr;
+      cursor: pointer;
+    }
+
+    .footer-subscription {
+      margin-top: 60px;
+      margin-right: 185px;
+      font-size: 16px;
+      line-height: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100px;
+
+      .form {
+        display: grid;
+        grid-template-columns: 278px 80px;
+        grid-template-rows: 52px;
+
+        input {
+          border: 2px solid #e0b973;
+          background: #14274a;
+          color: inherit;
+        }
+
+        button {
+          background: #e0b973;
+          border: 0px solid #e0b973;
+          color: #14274a;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

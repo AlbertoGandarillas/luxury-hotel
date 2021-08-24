@@ -1,0 +1,18 @@
+.logo {
+  background-color: $color-primary;
+  color: $color-secondary;
+  font-family: $font-family-garamond;
+  font-size:4.0rem;
+  width: 256px;
+  height: 149px;
+  text-align: center;
+  padding: 44px 18px 53px 41px;
+  border-radius: 0 0 50px 50px;
+  text-transform: uppercase;
+  
+  &::after {
+    font-size: $font-small;
+    content: 'HOTELS';
+    text-align: center;
+  }
+}
