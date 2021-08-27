@@ -42,6 +42,13 @@
         width: 65%;
       }
     }
+    &__contact {
+      font-family: $font-family-montserrat;
+      font-size: $font-xx-large;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 47px 0 171px 0;
+    }
     button {
       background-color: $color-primary;
       color: #fff;
@@ -75,6 +82,10 @@
     }
     &--facilities {
         background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../images/palm-trees-at-night-258154\ 1.png");
+    }
+    &--contact {
+      background-image: none;
+      background-color: $color-secondary;
     }
     @media (max-width: $responsive-mobile-max) {
       background-position: center;

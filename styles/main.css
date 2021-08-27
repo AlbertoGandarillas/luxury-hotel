@@ -368,6 +368,14 @@ a {
   }
 }
 
+.hero__contact {
+  font-family: "Montserrat", sans-serif;
+  font-size: 8rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 47px 0 171px 0;
+}
+
 .hero button {
   background-color: #e0b973;
   color: #fff;
@@ -407,6 +415,11 @@ a {
 
 .hero--facilities {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/palm-trees-at-night-258154 1.png");
+}
+
+.hero--contact {
+  background-image: none;
+  background-color: #14274a;
 }
 
 @media (max-width: 569px) {
@@ -659,6 +672,80 @@ footer .container .footer-subscription .form button {
   border: 0px solid #e0b973;
   color: #14274a;
   font-size: 16px;
+}
+
+.contact {
+  margin-top: 261px;
+}
+
+.contact h2 {
+  font-family: "EB Garamond", sans-serif;
+  padding-bottom: 18px;
+  font-size: 6rem;
+}
+
+.contact p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+}
+
+.contact__wrapper {
+  display: flex;
+  margin-top: 161px;
+  font-size: 4rem;
+}
+
+.contact__info {
+  width: 60%;
+}
+
+.contact__info p {
+  padding-bottom: 28px;
+  line-height: 1.2;
+}
+
+.contact__viewmap {
+  font-weight: bold;
+  margin-bottom: 54px;
+  display: inline-block;
+}
+
+.contact form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 8px;
+  color: #14274a;
+}
+
+.contact input {
+  border: 2px solid rgba(20, 39, 74, 0.5);
+  line-height: 70px;
+  padding: 5px;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.contact textarea {
+  margin-top: 22px;
+}
+
+.contact button {
+  margin-top: 52px;
+  background: #e0b973;
+  border-radius: 1px;
+  padding: 25px;
+  border: none;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  width: 30%;
+  align-self: flex-end;
 }
 
 .wrapper {

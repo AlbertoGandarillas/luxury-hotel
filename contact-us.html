@@ -1,28 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./images/favicon.png" type="image/x-icon" />    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon" />
     <script
       src="https://kit.fontawesome.com/a8fc5b6cf3.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/main.css" />    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Montserrat&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
     <title>CONTACTO</title>
-</head>
-<body>
-    <form action="">
-      <h2>CONTACTO</h2>
-      <input type="text" name="name" placeholder="Name">
-      <input type="text" name="Email" placeholder="Email Address">
-      <input type="text" name="Message" placeholder="Message">
-      <textarea name="mensaje" placeholder=""></textarea>
-      <input type="button" value="ENVIAR" id="Boton">
-    </form>
-</body>
+  </head>
+  <body>
+    <div class="hero hero--contact">
+      <header class="header">
+        <div class="logo">
+          <p>Luxury</p>
+        </div>
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item nav--active">
+              <a href="./index.html">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="./facilities.html">Facilities</a>
+            </li>
+            <li class="nav__item"><a href="./rooms.html">Rooms</a></li>
+            <li class="nav__item">
+              <a href="./contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <h1 class="hero__contact">Contact-Us</h1>
+    </div>
+    <div class="wrapper">
+      <section class="contact">
+        <h2>WE ARE HERE FOR YOU</h2>
+        <p>At Luxury Hotels, we take our customers seriously. Do you have any enquiries, compaints or requests, please forward it to our support desk and we will get back to you as soon as possible.</p> 
+
+        <div class="contact__wrapper">
+          <div class="contact__info">
+            <p>497 Evergreen Rd. Roseville,<br>
+              CA 95673</p>
+            <a href="#" class="contact__viewmap">View map</a>
+            <p>Phone: +44 345 678 903</p>
+            <p>Email: 
+              <a href="mailto:luxury_hotels@gmail.com">luxury_hotels@gmail.com</a>
+            </p>
+          </div>
+          <form action="">
+            <label>Name</label>
+            <input type="text" name="name" />
+            <label>Email Address</label>
+            <input type="text" name="Email" />
+            <label>Message</label>
+            <textarea name="mensaje" placeholder="" rows="20"></textarea>
+            <button>Submit</button>
+          </form>
+        </div> 
+      </section>
+
+    </div>
+    <footer>
+      <div class="container" style="background-image:url(./images/footer-background.png); ">
+        <div class="footer-descrip">
+          <div class="footer-descrip-name">
+            <div class="luxury">LUXURY</div>
+            <div class="hotels">HOTELS</div>
+          </div>
+          <p>
+            497 Evergreen Rd. Roseville, CA 95673 <br />
+            +44 345 678 903 <br />
+            luxury_hotels@gmail.com
+          </p>
+        </div>
+        <div class="footer-about-us">
+          <a href="./contact-us.html" target="_blank">About Us</a>
+          <a href="/" target="_blank">Contact</a>
+          <a href="/" target="_blank">Terms & Conditions</a>        
+        </div>
+        <div class="footer-social">
+          <div>
+            <a href="https://www.facebook.com" target="_blank"
+              ><img src="./images/fb.png" alt="Facebook"
+            /></a>
+          </div>
+          <div>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+          </div>
+          <div>
+            <a href="https://twitter.com/?lang=es" target="_blank"
+              ><img src="./images/tw.png" alt="Twitter"
+            /></a>
+          </div>
+          <div>
+            <a href="https://twitter.com/?lang=es" target="_blank">Twitter</a>
+          </div>
+          <div>
+            <a href="https://www.instagram.com" target="_blank"
+              ><img src="./images/ig.png" alt="Instagram"
+            /></a>
+          </div>
+          <div>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+          </div>
+        </div>
+        <div class="footer-subscription">
+          <div>Subscribe to our newsletter</div>
+          <form class="form" action="">
+            <input type="email" placeholder="     Email Address" />
+            <button type="submit">OK</button>          
+          </form>
+        </div>
+      </div>
+    </footer>      
+  </body>
 </html>
